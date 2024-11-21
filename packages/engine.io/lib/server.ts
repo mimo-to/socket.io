@@ -12,7 +12,7 @@ import type {
   Server as HttpServer,
   ServerResponse,
 } from "http";
-import type { CookieSerializeOptions } from "cookie";
+import type { CookieSerializeOptions } from "./types/cookie";
 import type { CorsOptions, CorsOptionsDelegate } from "cors";
 import type { Duplex } from "stream";
 import { WebTransport } from "./transports/webtransport";
