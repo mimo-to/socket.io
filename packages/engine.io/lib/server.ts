@@ -17,7 +17,7 @@ import type { Duplex } from "stream";
 import { WebTransport } from "./transports/webtransport";
 import { createPacketDecoderStream } from "engine.io-parser";
 import type { EngineRequest } from "./transport";
-import { CookieSerializeOptions } from "./contrib/cookie.types";
+import type { CookieSerializeOptions } from "./contrib/types.cookie";
 
 const debug = debugModule("engine");
 
